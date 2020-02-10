@@ -1,0 +1,18 @@
+{
+   "Jest test":{
+      "prefix":"jest-test",
+      "body":[
+         "import React from 'react'",
+         "import {shallow} from 'enzyme'",
+         "",
+         "import ${TM_DIRECTORY/^.+\\/(.*)$/$1/} from './index'",
+         "",
+         "describe('${TM_DIRECTORY/^.+\\/(.*)$/$1/} tests', () => {",
+         "$1 it('renders without crashing', () => {",
+         "\t$2 shallow(<${TM_DIRECTORY/^.+\\/(.*)$/$1/} />);",
+         "$1 });",
+         "});"
+      ],
+      "description":"scaffold jest test"
+   }
+}
