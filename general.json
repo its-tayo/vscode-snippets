@@ -1,7 +1,7 @@
 {
 	"Console log": {
 		"prefix": "c-lg",
-		"body": "console.log('$1');",
+		"body": "console.log($1);",
 		"description": "console log"
 	}
 }
