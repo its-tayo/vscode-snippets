@@ -3,5 +3,10 @@
 		"prefix": "c-lg",
 		"body": "console.log($1);",
 		"description": "console log"
+	},
+	"Console error": {
+		"prefix": "c-err",
+		"body": "console.error($1);",
+		"description": "console error"
 	}
 }
